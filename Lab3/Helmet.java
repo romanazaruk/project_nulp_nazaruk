@@ -7,9 +7,9 @@ public class Helmet extends  Good {
 		
 	}
 	
-	public Helmet(GoodType goodType, int price , String material, double weight, String manfucturer, String color , int amount,String sizeOfHead) {
+	public Helmet(GoodType goodType, GoodName name, int price , String material, double weight, String manfucturer, String color , int amount,String sizeOfHead) {
 		
-		super(goodType, price, material, weight, manfucturer, color, amount);
+		super(goodType, name, price, material, weight, manfucturer, color, amount);
 		
 		this.sizeOfHead = sizeOfHead;
 	

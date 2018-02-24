@@ -25,7 +25,7 @@ public class HockeyClub {
 
         for (Good good : goodList) {
 
-            if (good.getName().equals(addGood.getName())) {
+           if (good.getName().equals(addGood.getName())) {
 
                 good.setPrice(good.getPrice() + addGood.getPrice());
 

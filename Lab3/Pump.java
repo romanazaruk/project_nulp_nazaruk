@@ -8,10 +8,10 @@ public class Pump extends Good {
 
 	}
 
-	public Pump(GoodType goodType, int price, String material, double weight, String manfucturer, String color,
+	public Pump(GoodType goodType, GoodName name, int price, String material, double weight, String manfucturer, String color,
 			int amount, double diametr) {
 
-		super(goodType, price, material, weight, manfucturer, color, amount);
+		super(goodType, name, price, material, weight, manfucturer, color, amount);
 
 		this.diametr = diametr;
 

@@ -3,7 +3,7 @@ package ua.lviv.iot.hockeyclub;
 public class Good {
 	
 	
-	private GoodType goodType ;
+	private GoodType goodType;
 	private GoodName name;
 	private int price;
 	private String material;
@@ -18,10 +18,11 @@ public class Good {
 	    }
 
 
-	    public Good(GoodType goodType, int price, String material, double weight, String manufacturer, String color, int amount) {
+	    public Good(GoodType goodType, GoodName name, int price, String material, double weight, String manufacturer, String color, int amount) {
 	     
 	    	
 	     this.goodType = goodType;	
+	     this.name = name;
 	     this.price = price;
 	     this.material = material;
 	     this.weight = weight;
@@ -51,6 +52,15 @@ public class Good {
 	        this.name = name;
 
 	    }
+	    
+	    public void setType(GoodType type) {
+	    	this.goodType = type;
+	    }
+	    
+	    public GoodType getType() {
+	    	return this.goodType;
+	    }
+	    
 	public int getPrice() {
 		return price;
 	}

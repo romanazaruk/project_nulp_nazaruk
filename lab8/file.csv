@@ -1,0 +1,8 @@
+name,weight,color,price,diametr
+PUMP,2.0,black,50,15.0
+name,weight,color,price,length
+STICK,2.0,black,1500,25.5
+name,weight,color,price,sizeOfHead
+HELMET,2.5,black,70,S
+name,weight,color,price,sizeOfLeg
+SKATES,2.0,black,25,M

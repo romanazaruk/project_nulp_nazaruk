@@ -1,0 +1,3 @@
+public enum GoodType {
+    FORGOALKEEPER, FORFIELDPLAYER, FORANY;
+}

@@ -1,0 +1,151 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: ua.lviv.iot.HockeyClub</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">&lt;empty package name&gt;</a> ]
+</div>
+
+<h1>Coverage Summary for Class: ua.lviv.iot.HockeyClub (&lt;empty package name&gt;)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">ua.lviv.iot.HockeyClub</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (7/ 7)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (21/ 21)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;import java.util.*;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;public class ua.lviv.iot.HockeyClub {
+<b class="fc"><i>4</i>&nbsp;    private String name = &quot;no name&quot;;</b>
+<i>5</i>&nbsp;    private int amountOfPlayers;
+<i>6</i>&nbsp;    private List&lt;ua.lviv.iot.Good&gt; goodList;
+<i>7</i>&nbsp;
+<b class="fc"><i>8</i>&nbsp;    public ua.lviv.iot.HockeyClub(final String name, final int amountOfPlayers) {</b>
+<b class="fc"><i>9</i>&nbsp;        setName(name);</b>
+<b class="fc"><i>10</i>&nbsp;        setAmountOfPlayers(amountOfPlayers);</b>
+<b class="fc"><i>11</i>&nbsp;        this.goodList = new LinkedList&lt;&gt;();</b>
+<i>12</i>&nbsp;
+<b class="fc"><i>13</i>&nbsp;    }</b>
+<i>14</i>&nbsp;
+<i>15</i>&nbsp;    @Override
+<i>16</i>&nbsp;    public String toString() {
+<b class="fc"><i>17</i>&nbsp;        return &quot;ua.lviv.iot.HockeyClub{&quot; +</b>
+<i>18</i>&nbsp;                &quot;name=&#39;&quot; + name + &#39;\&#39;&#39; +
+<i>19</i>&nbsp;                &quot;, amountOfPlayers=&quot; + amountOfPlayers +
+<i>20</i>&nbsp;                &quot;, goodList=&quot; + goodList +
+<i>21</i>&nbsp;                &#39;}&#39;;
+<i>22</i>&nbsp;    }
+<i>23</i>&nbsp;
+<i>24</i>&nbsp;    public final void addGood(final ua.lviv.iot.Good addGood) {
+<b class="fc"><i>25</i>&nbsp;        goodList.add(addGood);</b>
+<b class="fc"><i>26</i>&nbsp;    }</b>
+<i>27</i>&nbsp;
+<i>28</i>&nbsp;    public final List&lt;ua.lviv.iot.Good&gt; sortGoodByPrice(final List&lt;ua.lviv.iot.Good&gt; list) {
+<b class="fc"><i>29</i>&nbsp;        list.sort((ua.lviv.iot.Good o1, ua.lviv.iot.Good o2) -&gt; o1.getPrice() - o2.getPrice());</b>
+<b class="fc"><i>30</i>&nbsp;        return list;</b>
+<i>31</i>&nbsp;
+<i>32</i>&nbsp;    }
+<i>33</i>&nbsp;
+<i>34</i>&nbsp;    /*public final String getName() {
+<i>35</i>&nbsp;        return name;
+<i>36</i>&nbsp;    }*/
+<i>37</i>&nbsp;
+<i>38</i>&nbsp;    public final void setName(final String name) {
+<b class="fc"><i>39</i>&nbsp;        this.name = name;</b>
+<b class="fc"><i>40</i>&nbsp;    }</b>
+<i>41</i>&nbsp;
+<i>42</i>&nbsp;    /*public final int getAmountOfPlayers() {
+<i>43</i>&nbsp;        return amountOfPlayers;
+<i>44</i>&nbsp;    }*/
+<i>45</i>&nbsp;
+<i>46</i>&nbsp;    public final void setAmountOfPlayers(final int amountOfPlayers) {
+<b class="fc"><i>47</i>&nbsp;        this.amountOfPlayers = amountOfPlayers;</b>
+<b class="fc"><i>48</i>&nbsp;    }</b>
+<i>49</i>&nbsp;
+<i>50</i>&nbsp;    /*public final List&lt;ua.lviv.iot.Good&gt; getGoodList() {
+<i>51</i>&nbsp;        return goodList;
+<i>52</i>&nbsp;    }
+<i>53</i>&nbsp;
+<i>54</i>&nbsp;    public final void setGoodList(final List&lt;ua.lviv.iot.Good&gt; goodList) {
+<i>55</i>&nbsp;        this.goodList = goodList;
+<i>56</i>&nbsp;    }*/
+<i>57</i>&nbsp;
+<i>58</i>&nbsp;    public final List&lt;ua.lviv.iot.Good&gt; findGoodByPrice(final int price) {
+<b class="fc"><i>59</i>&nbsp;        List&lt;ua.lviv.iot.Good&gt; result = new LinkedList&lt;&gt;();</b>
+<b class="fc"><i>60</i>&nbsp;        for (ua.lviv.iot.Good goodList : goodList) {</b>
+<b class="fc"><i>61</i>&nbsp;            if (goodList.getPrice() &lt;= price) {</b>
+<b class="fc"><i>62</i>&nbsp;                result.add(goodList);</b>
+<i>63</i>&nbsp;            }
+<b class="fc"><i>64</i>&nbsp;        }</b>
+<i>65</i>&nbsp;
+<b class="fc"><i>66</i>&nbsp;        return result;</b>
+<i>67</i>&nbsp;    }
+<i>68</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2018-03-17 15:55</div>
+</div>
+</body>
+</html>

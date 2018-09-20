@@ -4,7 +4,7 @@ from Insect import Insect
 
 from Quick_sort import QuickSort
 
-def Selection_sort(list):
+def selection(list):
     N = len(list)
     for i in range(0, N - 1):
         min_index = i
@@ -35,7 +35,7 @@ if __name__ == "__main__":
 
     print("SELECTION SORT")
     start_time = time.clock()
-    Selection_sort(insect_list)
+    selection(insect_list)
     print("Time: " + str(time.clock() - start_time))
     for insect in insect_list:
         print(insect)

@@ -1,0 +1,264 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	background: url(../images/background.jpg);
+	color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-weight: normal;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+li {
+	display: block;
+}
+
+.content {
+	max-width: 960px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding-top: 1px;
+  margin-top: -1px;
+}
+
+
+.yellow{
+  color:yellow;
+}
+
+
+h1 {
+	font-size: 40px;
+}
+
+/* * * * * * * * * * * * * * * *  * * * * *
+
+	HEADER
+
+* * * * * * * * * * * * * * * * * * * * * */
+
+header {
+	height: 60px;
+	background: black;
+	padding: 10px 50px;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.nav {
+	float: left;
+	display: flex;
+	align-items: center;
+	position: relative;
+	height: 61px;
+}
+
+.nav ul {
+	height: 100%;
+}
+
+.nav li {
+	height: 100%;
+	float: left;
+}
+
+.nav a {
+	display: block;
+	height: 100%;
+	vertical-align: middle;
+	box-sizing: border-box;
+	padding: 20px 20px;
+  color:yellow;
+}
+
+.nav a:hover {
+	background: #222;
+  transform: scale(1.2);
+  color: orange;
+  transition: all ease-in-out .5s;
+}
+
+.nav .expandable:hover .sublist {
+	display: block;
+}
+
+.sublist {
+	display: none;
+	position: absolute;
+	background: black;
+	min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.sublist li {
+	float: none;
+	margin: 0;
+}
+
+.sublist a {
+	display: block;
+	padding: 12px;
+}
+
+.sublist a:hover {
+	background: #222;
+}
+
+header .logo {
+	float: right;
+	height: 61px;
+	display: flex;
+   	align-items:center;
+}
+
+header .icon-logo {
+	width: 44px;
+	margin-left: 12px;
+}
+
+header .title {
+
+	font-weight: bold;
+	font-style: italic;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+/* * * * * * * * * * * * * * * *  * * * * *
+
+	SECTION 1
+
+* * * * * * * * * * * * * * * * * * * * * */
+
+section.first {
+	background: url(../images/bd1.png) center top no-repeat / cover;
+	height: 650px;
+}
+
+.first .titles {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 160px;
+}
+
+.first .title {
+	display: inline;
+	background: rgba(0,0,0,.6);
+	padding: 8px;
+	font: bold 40px "Roboto", sans-serif;
+	border: 10px solid rgba(0,0,0, 0.05);
+	border-radius: 10px;
+}
+
+.first .subtitle {
+	background: rgba(0,0,0,.6);
+	border: 10px solid rgba(0,0,0, 0.05);
+	border-radius: 10px;
+	font: italic 24px "Roboto", sans-serif;
+	margin: 50px auto 0;
+	max-width: 520px;
+	padding: 8px;
+}
+
+.first .subtitle-author {
+	font-size: 16px;
+	float: right;
+	margin-top: 8px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* * * * * * * * * * * * * * * *  * * * * *
+
+	SECTION 2
+
+* * * * * * * * * * * * * * * * * * * * * */
+
+section.second {
+	margin: 40px;
+}
+
+.second .content {
+	background: #181818;
+	padding: 30px;
+}
+
+.second p {
+	line-height: 24px;
+	color: #bbb;
+}
+
+/* * * * * * * * * * * * * * * *  * * * * *
+
+	SECTION 3
+
+* * * * * * * * * * * * * * * * * * * * * */
+
+.third .content {
+	background: #181818;
+	padding: 30px;
+	margin-bottom: 20px;
+}
+
+.third h1 {
+	text-align: center;
+}
+
+.gallery {
+	display: flex;
+	flex-direction: column;
+}
+
+.gallery .g-row {
+	display: flex;
+	flex: 1;
+}
+
+.gallery .g-item1 {
+	flex: 1;
+	background: #272828 url(../images/team.jpg) no-repeat center / cover;
+	width: 200px;
+	height: 400px;
+	margin: 20px;
+}
+
+
+
+/* * * * * * * * * * * * * * * *  * * * * *
+
+	FOOTER
+
+* * * * * * * * * * * * * * * * * * * * * */
+
+footer {
+	background: black;
+	height: 80px;
+}
+
+footer .content {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.footer-title {
+	color: #aaa;
+	margin: 0 auto;
+}

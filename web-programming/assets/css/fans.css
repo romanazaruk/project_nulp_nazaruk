@@ -1,0 +1,53 @@
+content .content {
+	background: #181818;
+	padding: 20px;
+	margin-top: 30px;
+  color:yellow;
+}
+
+content h1 {
+	text-align: center;
+  color:yellow;
+}
+
+content .request {
+	min-height: 200px;
+	background: rgba(0, 0, 0, .4);
+	margin: 30px 0;
+	padding: 20px;
+	position: relative;
+  color:yellow;
+}
+
+.request .req-footer {
+	margin-top: 25px;
+  color:yellow;
+}
+
+.request .date {
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+  color:yellow;
+}
+
+.request .nickname {
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+  color:yellow;
+}
+
+.adding-request textarea {
+	width: 80%;
+}
+
+.adding-request .button {
+	vertical-align: top;
+	width: 19%;
+  color:yellow;
+}
+
+.adding-request button {
+	width: 110px;
+}

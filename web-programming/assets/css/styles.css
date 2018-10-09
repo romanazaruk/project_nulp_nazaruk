@@ -4,7 +4,17 @@ body {
 	background: url(../images/background.jpg);
 	color: white;
 }
-
+.navbar-custom .navbar-nav > li > a {
+    color: yellow;
+    background-color: #000000;
+}
+.dropdown-item > li > a{
+	color: yellow;
+	background-color: #000000;
+}
+.form-control {
+color: yellow;
+}
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	font-weight: normal;
@@ -250,6 +260,7 @@ section.second {
 footer {
 	background: black;
 	height: 80px;
+
 }
 
 footer .content {
@@ -262,3 +273,15 @@ footer .content {
 	color: #aaa;
 	margin: 0 auto;
 }
+
+
+.yellow{
+	color:yellow;
+}
+.header1{
+	text-align: center;
+	color: yellow;
+}
+.btn button{
+margin-left: 10px;
+margin-bottom: 5090px;

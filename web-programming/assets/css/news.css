@@ -12,22 +12,3 @@
   text-align: center;
   margin-right: 5%;
 }
-.news-item img{
-  width: 100%;
-}
-.news-text{
-  width: 100%;
-  margin: 0 auto;
-
-color:yellow;
-}
-
-@keyframes show-news-item {
-  from{opacity: 0;}
-  to{opacity: 1;}
-}
-
-.h1n{
-  margin-top: 70px;
-  margin-bottom: 30px;
-}

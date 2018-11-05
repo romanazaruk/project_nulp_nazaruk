@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
-<body>
+<body >
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="js/bootstrap.js"></script>
     <header>
@@ -52,7 +52,7 @@
 <content>
         <div class="content">
             <h1>Fan request</h1>
-            <div class="reqests">
+            <div class="reqests" id="feedback-container">
                 <div class="request">
                     <p>"Wir gehen in das Spiel, um es zu gewinnen und freuen uns, wieder vor unseren Fans zu spielen – und ich glaube, die Fans freuen sich auch wieder auf die @ChampionsLeague." #BVBASM</p>
                     <div class="req-footer">
@@ -69,9 +69,9 @@
                 </div>
             </div>
             <div class="adding-request">
-                <textarea name="textarea" placeholder="Add request..." id="" cols="90" rows="8"></textarea>
+                <textarea name="textarea" placeholder="Add request..." id="feedback-text" cols="90" rows="8"></textarea>
                 <div class="button">
-                    <button>Send</button>
+                     <button onclick="addFans()">Send</button>
                 </div>
             </div>
         </div>
@@ -82,5 +82,7 @@
         <div class="footer-title">© 2018 Roman Nazaruk</div>
     </div>
 </footer>
+<script src="js/Indexed.js"></script>
+<!-- <script src="js/fans.js" type="text/javascript"></script> -->
 </body>
 </html>

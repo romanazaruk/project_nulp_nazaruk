@@ -55,10 +55,11 @@
             <div class="content">
                 <div class="adding-image row">
                     <div class="col-lg-7">
-                        <img src="assets/images/bd1.png" alt="">
+                        <img  id="news-image" src="assets/images/bd1.png" alt="">
                     </div>
                     <div class="col-lg-4 add-image-btn">
-                        <button>Add image</button>
+                        <label for="upload-image-button">Upload image</label>
+                        <input id="fileform" type="file" class="upload-image-button" required>
                     </div>
                 </div>
             </div>
@@ -66,11 +67,11 @@
         <section class="second">
             <div class="content row">
                 <div class="forms col-lg-7">
-                    <textarea name="textarea-title" placeholder="News title..." id="title" cols="30" rows="2"></textarea>
-                    <textarea name="textarea-text" placeholder="News description..." id="text" cols="30" rows="10"></textarea>
+                    <textarea name="textarea-title" placeholder="News title..." id="news-title" cols="30" rows="2"></textarea>
+                    <textarea name="textarea-text" placeholder="News description..." id="news-text" cols="30" rows="10"></textarea>
                 </div>
                 <div class="col-lg-4">
-                    <button>Add news</button>
+                    <button id="submit-btn" onclick="addNews()">Add news</button>
                 </div>
             </div>
         </section>
@@ -81,5 +82,7 @@
         <div class="footer-title">© 2018 Roman Nazaruk</div>
     </div>
 </footer>
+<script src="js/Indexed.js" ></script>
+<!-- <script src="js/admin.js"></script> -->
 </body>
 </html>

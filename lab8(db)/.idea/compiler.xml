@@ -6,11 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hockeyclub" />
+        <module name="lab-8" />
+        <module name="lab8" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="9">
-      <module name="hockeyclub" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,0 +1,49 @@
+
+h1 {
+	text-align: center;
+}
+.color{
+color:yellow;
+}
+
+section {
+	margin-top: 20px;
+  margin-left: 40px;
+
+}
+
+section .content {
+	background: #181818;
+	padding: 20px;
+  margin-left: 10px;
+}
+
+/* * * * * * * * * * * * *
+		SECTION 1
+* * * * * * * * * * * * */
+
+.sec1 h1 {
+	margin: 0;
+  color:yellow;
+}
+
+.adding-image {
+	margin-left: 5px;
+}
+
+.adding-image img {
+	margin-top: 10px;
+	width: 100%;
+}
+
+.adding-image .add-image-btn {
+	margin-top: 10px;
+}
+
+.second textarea {
+	width: 100%;
+}
+
+.second textarea#title {
+	min-height: 50px;
+}

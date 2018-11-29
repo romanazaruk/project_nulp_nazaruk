@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html  manifest="manifest">
+<head>
+    <meta charset=utf-8>
+    <title>Borussia Dortmund</title>
+    <link rel="icon" href="assets/images/logo.png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/fans.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body >
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-custom">
+  <button class="navbar-toggler yellow" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon yellow 3x"><i class="fas fa-bars"></i></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#">Main</a>
+      <li class="nav-item">
+        <a class="nav-link" href="news.html#">News</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="fans.html#">Fans</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="matches.html#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Matches
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="matches.html#">Next matches</a>
+          <a class="dropdown-item" href="matches.html#">Previous matches</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contacs.html#">Contacts</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="admin.html#">Admin</a>
+      </li>
+    </ul>
+  </div>
+   <img id="logo" src="assets/images/logo.png" alt="Logo" height="40" width="50">
+</nav>
+</header>
+
+<content>
+        <div class="content">
+            <h1>Fan request</h1>
+            <div class="reqests" id="feedback-container">
+                <div class="request">
+                    <p>"Wir gehen in das Spiel, um es zu gewinnen und freuen uns, wieder vor unseren Fans zu spielen – und ich glaube, die Fans freuen sich auch wieder auf die @ChampionsLeague." #BVBASM</p>
+                    <div class="req-footer">
+                        <div class="date">10.10.2018, 23:27</div>
+                        <div class="nickname">Roma Nazaruk</div>
+                    </div>
+                </div>
+                <div class="request">
+                    <p> Es ist wieder @ChampionsLeague-Zeit, und mit dem @SkyTicketDE (jederzeit monatlich kündbar) könnt ihr unser Spiel gegen die @AS_Monaco morgen ganz einfach live streamen! </p>
+                    <div class="req-footer">
+                        <div class="date">10.10.2018, 10:16</div>
+                        <div class="nickname">Roma Nazaruk</div>
+                    </div>
+                </div>
+            </div>
+            <div class="adding-request">
+                <textarea name="textarea" placeholder="Add request..." id="feedback-text" cols="90" rows="8"></textarea>
+                <div class="button">
+                     <button onclick="addFans()">Send</button>
+                </div>
+            </div>
+        </div>
+    </content>
+
+<footer>
+    <div class="content">
+        <div class="footer-title">© 2018 Roman Nazaruk</div>
+    </div>
+</footer>
+<script src="js/Indexed.js"></script>
+<!-- <script src="js/fans.js" type="text/javascript"></script> -->
+</body>
+</html>

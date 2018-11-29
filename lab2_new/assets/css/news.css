@@ -1,0 +1,14 @@
+.news-block{
+  display: flex;
+  width: 90%;
+  margin: 150px auto;
+}
+.news-item{
+  animation-name: show-news-item;
+  animation-duration: 3s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 20%;
+  height: 500px;
+  text-align: center;
+  margin-right: 5%;
+}

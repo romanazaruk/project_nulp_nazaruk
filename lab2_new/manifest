@@ -1,0 +1,30 @@
+CACHE MANIFEST
+
+CACHE:
+assets/css/styles.css
+assets/css/news1.css
+assets/css/admin.css
+assets/css/contacs.css
+assets/css/fans.css
+assets/css/matches.css
+css/bootstrap.css
+index.html
+assets/css/fans.css
+error.html
+assets/images/background.jpg
+assets/images/logo.png
+assets/images/bd1.png
+assets/images/team.jpg
+news4.jpg
+js/Indexed.js
+
+
+NETWORK:
+*
+
+FALLBACK:
+fans.html /error.html
+admin.html /error.html
+contacs.html /error.html
+matches.html /error.html
+news.html /error.html

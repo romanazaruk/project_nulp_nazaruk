@@ -1,0 +1,185 @@
+body {
+	max-width: 960px;
+	margin: 0 auto;
+	font-size: large;
+	word-spacing: 0.1em;
+}
+.img1{
+
+ width:109px;
+ height:105;
+
+}
+
+.img2{
+width:257;
+ height:436;
+}
+
+.img3{
+  width:300;
+  height:203;
+}
+.img4{
+  width:414;
+  height:254;
+}
+.img5{
+  width:224;
+  height:334;
+}
+.img6{
+  width:250;
+  height:261;
+}
+.img7{
+  width:135;
+  height:341;
+}
+.img8{
+  width:257;
+   height:242;
+     }
+.img9{
+       width:194;
+      height:317;
+          }
+  .img10{
+            width:261;
+            height:228;
+          }
+.img11{
+    width:188;
+    height:262;
+  }
+
+  .img12{
+      width:305;
+      height:224;
+    }
+    .img13{
+        width:218;
+        height:231; 
+      }
+
+
+
+a.needstyle {
+    text-align: center;
+}
+
+.right {
+    float: right;
+}
+
+.right figcaption {
+    margin-left: 20px;
+    margin-top: 3px
+}
+
+.leftside {
+    float: left;
+}
+
+.leftside figcaption {
+    margin-left: 0px;
+    margin-bottom: auto;
+    margin-top: 5px;
+}
+
+figcaption {
+    float: right;
+    margin-top: 50px;
+
+}
+
+.marginLeft {
+    margin-left: 400px;
+}
+
+.marginLeft figcaption {
+    float: bottom;
+}
+
+.bottom {
+    margin-right: 330px;
+
+}
+
+.bottom figcaption {
+    text-align: center;
+
+}
+
+.brd {
+    border: 1px solid black;
+
+
+}
+
+.brdLittleProf {
+    border: 1px solid black;
+    min-height: 253px;
+
+    /*margin: 0 15px 0 0;*/
+
+    padding: 0 154px 1.75em 0;
+
+}
+
+.note {
+    margin: 3.112em 4.94em;
+}
+
+.note span {
+    display: block;
+    float: left;
+    font-size: 266.7%;
+    line-height: 0.8;
+    margin: 0 0.22em 0 -1.22em;
+}
+
+.body {
+    font: large/1.556 "Linux Libertine", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
+    word-spacing: 0.1em;
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+.margins {
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+#layer {
+    font-size: large;
+    width: 100%;
+    background: #000000; /* колір фону */
+    color: #FFFFFF;
+}
+.layer h4 {
+margin: 0;
+padding: 4px;
+background: black;
+color: white;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: FireBrick;
+    border-bottom: 1px dotted;
+}
+
+a:visited {
+    color: RosyBrown;
+    border-bottom: 1px dotted;
+}
+
+a:link:hover, a:visited:hover {
+    border-bottom: 1px solid;
+}
